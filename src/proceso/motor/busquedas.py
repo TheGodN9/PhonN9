@@ -32,9 +32,9 @@ def enviar (n):
             pais = "+59"
         if(pais_n == "4"):
             pais = "+1"
-        if(pais_n == "5")
+        if(pais_n == "5"):
             pais = "+54"
-        if(pais_n == "6")
+        if(pais_n == "6"):
             pais = "+1"
            print (Fore.GREEN + "enviando...")
     scra(pais, numero)
