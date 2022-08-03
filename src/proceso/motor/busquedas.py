@@ -21,7 +21,6 @@ def enviar (n):
 3.- EC (Ecuador)
 4.- USA (Estados Unidos)
 5.- ARG (Argentina)
-6.- USA (Estados Unidos)
         """)
         pais_n = str(input(Fore.RED + "Escoje un numero: "))
         if(pais_n == "1"):
