@@ -19,7 +19,7 @@ def enviar (n):
 1.- MX (Mexico) 
 2.- CO (Colombia)
 3.- EC (Ecuador)
-4.- EEUU (Estados Unidos)
+4.- USA (Estados Unidos)
 5.- ARG (Argentina)
 6.- USA (Estados Unidos)
         """)
@@ -31,10 +31,6 @@ def enviar (n):
         if(pais_n == "3"):
             pais = "+59"
         if(pais_n == "4"):
-            pais = "+1"
-        if(pais_n == "5"):
-            pais = "+54"
-        if(pais_n == "6"):
             pais = "+1"
            print (Fore.GREEN + "enviando...")
     scra(pais, numero)
