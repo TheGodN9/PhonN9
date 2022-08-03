@@ -19,7 +19,7 @@ def enviar (n):
 1.- MX (Mexico) 
 2.- CO (Colombia)
 3.- EC (Ecuador)
-4.- USA (Estados Unidos)
+4.- EEUU (Estados Unidos)
 5.- ARG (Argentina)
         """)
         pais_n = str(input(Fore.RED + "Escoje un numero: "))
