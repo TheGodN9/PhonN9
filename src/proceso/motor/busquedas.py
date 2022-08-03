@@ -31,5 +31,5 @@ def enviar (n):
             pais = "+59"
         if(pais_n == "4"):
             pais = "+1"
-           print (Fore.GREEN + "enviando...")
+    print (Fore.GREEN + "enviando...")
     scra(pais, numero)
