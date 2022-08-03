@@ -21,6 +21,7 @@ def enviar (n):
 3.- EC (Ecuador)
 4.- EEUU (Estados Unidos)
 5.- ARG (Argentina)
+6.- USA (Estados Unidos)
         """)
         pais_n = str(input(Fore.RED + "Escoje un numero: "))
         if(pais_n == "1"):
@@ -31,5 +32,9 @@ def enviar (n):
             pais = "+59"
         if(pais_n == "4"):
             pais = "+1"
-    print (Fore.GREEN + "enviando...")
+        if(pais_n == "5")
+            pais = "+54"
+        if(pais_n == "6")
+            pais = "+1"
+           print (Fore.GREEN + "enviando...")
     scra(pais, numero)
